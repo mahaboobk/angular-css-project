@@ -1,0 +1,7 @@
+<div class="container">
+	<button (click)="isLeftVisible = !isLeftVisible">
+  Toggle panes
+</button>
+  <app-parent-div></app-parent-div>
+  <app-child-div [activePane]="isLeftVisible ? 'left' : 'right'"></app-child-div>
+</div>

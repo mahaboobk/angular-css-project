@@ -1,0 +1,19 @@
+.edit-form {
+  background-color: red;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.content {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80%; 
+  height: 500px;
+  border: 2px solid green;
+  z-index:2;
+  background-color: white;
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+}
