@@ -2,11 +2,9 @@
   transition: transform 10s;
   position: absolute;
   background-color: yellow;
-  height: 100%;
-  min-height: 580px;
+  /* min-height: 580px; */
   width: 50%;
-  margin: 10px;
-  clear: both;
+  /* margin: 10px;   */
   top: 0;
   right: 0;
   bottom: 0;
